@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_root_RLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_dialog_close"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_bg">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/dialog_edit_title"
+            android:textColor="#6c6c6c"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dialog_et"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:textColor="#6c6c6c"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/et_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dialog_confirm"
+            android:text="@string/dialog_edit_comfire"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_dialog_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-15dp"
+        android:layout_marginRight="-15dp"
+        android:src="@drawable/dialog_close" />
+</RelativeLayout>

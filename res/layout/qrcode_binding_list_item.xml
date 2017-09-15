@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:paddingBottom="@dimen/qr_code_bind_item_layout_padding_top"
+    android:paddingLeft="@dimen/qr_code_bind_item_layout_padding_left"
+    android:paddingRight="@dimen/qr_code_bind_item_layout_padding_left"
+    android:paddingTop="@dimen/qr_code_bind_item_layout_padding_top">
+
+    <TextView
+        android:id="@+id/user_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phone_number"
+        android:layout_toStartOf="@+id/btn_delete"
+        android:paddingRight="@dimen/qr_code_bind_item_online_margin_right"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qr_code_bind_item_name_margin_left"
+        android:textColor="@color/bg_item_id"
+        android:textSize="@dimen/qr_code_bind_item_name_text_size" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="@dimen/qr_code_bind_delete_width"
+        android:layout_height="@dimen/qr_code_bind_delete_height"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/qr_code_bind_item_online_margin_right"
+        android:background="@drawable/qrcode_delete_btn" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/bg_item_id"
+        android:textSize="@dimen/qr_code_bind_item_name_text_size" />
+
+</RelativeLayout>

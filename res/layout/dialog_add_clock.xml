@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_transparent">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/add_clock_bg">
+
+        <RadioGroup
+            android:id="@+id/rg_clock_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/clock_sleep"
+                android:drawablePadding="3dp"
+                android:padding="10dp"
+                android:text="@string/clock_sleep"
+                android:textColor="@color/radiobutton_textcolor" />
+
+            <RadioButton
+                android:id="@+id/rb_get_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableLeft="@drawable/clock_get_up"
+                android:drawablePadding="3dp"
+                android:padding="10dp"
+                android:text="@string/clock_get_up"
+                android:textColor="@color/radiobutton_textcolor" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/RLayout_select_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_clock_select"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_select_sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-thin"
+                android:padding="10dp"
+                android:textColor="@color/textWhite"
+                android:textSize="40sp"
+                android:textStyle="normal" />
+
+            <com.yongyida.robot.settings.view.CircleSeekBar
+                android:id="@+id/cs_select_sleep"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:wheel_max_process="144"
+                app:wheel_num_color="#ffffff"
+                app:wheel_pointer_radius="11dp"
+                app:wheel_reached_color="#FFAD03"
+                app:wheel_reached_width="25dp"
+                app:wheel_scale_color="#6C7691"
+                app:wheel_scroll_only_two_circle="true"
+                app:wheel_unreached_color="#2A2F4C"
+                app:wheel_unreached_width="25dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLayout_select_get_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_clock_select"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/tv_select_get_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-thin"
+                android:padding="10dp"
+                android:textColor="@color/textWhite"
+                android:textSize="40sp"
+                android:textStyle="normal" />
+
+            <com.yongyida.robot.settings.view.CircleSeekBar
+                android:id="@+id/cs_select_get_up"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:wheel_max_process="144"
+                app:wheel_num_color="#ffffff"
+                app:wheel_pointer_radius="11dp"
+                app:wheel_reached_color="#FFAD03"
+                app:wheel_reached_width="25dp"
+                app:wheel_scale_color="#6C7691"
+                app:wheel_scroll_only_two_circle="true"
+                app:wheel_unreached_color="#2A2F4C"
+                app:wheel_unreached_width="25dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_confirm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLayout_select_sleep"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_dialog_button"
+            android:padding="10dp"
+            android:text="@string/dialog_edit_comfire"
+            android:textColor="@color/textWhite" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

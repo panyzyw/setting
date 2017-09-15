@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/parents_setup_paddingLeft"
+    android:paddingRight="@dimen/parents_setup_paddingLeft">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.85"
+            android:gravity="center_vertical"
+            android:text="@string/network_select"
+            android:textColor="#6c6c6c"
+            android:textSize="@dimen/network_item_title_text_size" />
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/network_refresh"
+            android:textColor="#7198e2"
+            android:textSize="@dimen/network_item_title_text_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/all_divider_color"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent" />
+</LinearLayout>
+

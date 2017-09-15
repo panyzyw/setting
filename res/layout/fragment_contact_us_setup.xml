@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/wechat_fragment_margin_top">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/wechat_public"
+                android:textColor="@color/all_item_text_color"
+                android:textSize="@dimen/qr_code_tip_text_size" />
+
+            <TextView
+                android:id="@+id/tv_subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/qr_code_right_code_margin_left"
+                android:gravity="center"
+                android:text="@string/wechat_subscribe"
+                android:textColor="@color/all_item_text_color"
+                android:textSize="@dimen/qr_code_tip_text_size" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="@dimen/qr_code_padding_top">
+
+            <ImageView
+                android:id="@+id/imv_public"
+                android:layout_width="@dimen/qr_code_image_size"
+                android:layout_height="@dimen/qr_code_image_size"
+                android:src="@drawable/wechat_public" />
+
+            <ImageView
+                android:id="@+id/imv_subscribe"
+                android:layout_width="@dimen/qr_code_image_size"
+                android:layout_height="@dimen/qr_code_image_size"
+                android:layout_marginLeft="@dimen/qr_code_right_code_margin_left"
+                android:src="@drawable/wechat_subscribe" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/customer_phone"
+                android:textColor="@color/all_item_text_color"
+                android:textSize="@dimen/qr_code_tip_text_size" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

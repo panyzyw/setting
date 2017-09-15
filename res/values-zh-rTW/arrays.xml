@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_list_title">
+        <item>機器人二維碼</item>
+        <item>網路設置</item>
+        <!--<item>藍牙</item>-->
+        <item>管理員密碼</item>
+        <item>螢幕亮度</item>
+        <item>發音人</item>
+        <!--<item>G-sensor設置</item>-->
+        <item>表情</item>
+        <item>操作指引</item>
+        <item>聯繫我們</item>
+        <item>關於機器人</item>
+    </string-array>
+    <string-array name="speaker_title">
+        <item>唤醒</item>
+        <item>打断</item>
+        <item>返回主界面</item>
+        <item>退出当前应用</item>
+        <item>返回上级页面</item>
+        <item>关闭机器人</item>
+        <item>调小音量</item>
+        <item>调大音量</item>
+        <item>音量最大</item>
+        <item>音量最小</item>
+        <item>静音</item>
+        <item>打开设置</item>
+        <item>打开遥控器</item>
+        <item>拍照片</item>
+        <item>打开游戏</item>
+        <item>打开工具</item>
+        <item>打开文档管理</item>
+        <item>打开我的应用</item>
+        <item>打开学习</item>
+        <item>机器人前进</item>
+        <item>机器人前进X米</item>
+        <item>机器人后退</item>
+        <item>机器人后退X米</item>
+        <item>机器人向右转</item>
+        <item>机器人向左转</item>
+        <item>机器人停止转弯</item>
+        <item>机器人跳舞</item>
+        <item>机器人人脸识别</item>
+        <item>机器人头部扭动</item>
+        <item>打开小勇档案</item>
+    </string-array>
+
+    <string-array name="speaker_content">
+        <item>小勇、小勇小勇/自定义语音设置（录音/文字）</item>
+        <item>好了小勇、好的小勇、好了好了</item>
+        <item>返回首页、返回主页、回到主页、去主页、主页</item>
+        <item>退出、关闭应用、退出应用、这个不好玩、</item>
+        <item>返回、返回上一页、上一页、退一页</item>
+        <item>关机、关闭、关了、X分钟后关机、小勇关机</item>
+        <item>音量调小、小声些、小点声、声音小点、声音太大啦</item>
+        <item>音量调大、大声些、大点声、声音大点、声音太小啦</item>
+        <item>音量调最大、声音最大、音量最大、最大声、调到最大声</item>
+        <item>音量调最小、音量最小、声音最小、最小声、调到最小声</item>
+        <item>我要静音、静音、安静一下、关声音、关掉音量、</item>
+        <item>开启设置、设置一下、打开设置、设置设置、设置xx</item>
+        <item>打开遥控器、开启遥控器</item>
+        <item>拍照、照相、拍个照、照张相</item>
+        <item>玩游戏、打开游戏、玩会儿游戏</item>
+        <item>打开工具、开启工具</item>
+        <item>文档管理、打开文档管理</item>
+        <item>文档应用、打开我的应用</item>
+        <item>打开学习、学习一下、开始学习</item>
+        <item>过来、小勇过来、前进、往前走、走过来、过来点</item>
+        <item>前进10公分、前进半米、前进xx厘米、往前走x米</item>
+        <item>小勇后退、退后、后退、往后退、往回走、倒回去</item>
+        <item>后退10公分、后退半米、后退xx厘米、往回走x米</item>
+        <item>右转、小勇右转、向右转、往右边、往右边走、右边走</item>
+        <item>左转、小勇左转、向左转、往左边、往左边走、左边走</item>
+        <item>停止转弯、直走、直行、往前直走</item>
+        <item>跳个舞、小勇跳舞、跳支舞、跳舞啦、一起跳舞、来跳舞</item>
+        <item>我是谁、他是谁、这是谁、这个人是谁、认识我吗、认识他吗、这位美女是谁、这位帅哥是谁、这个宝宝是谁、</item>
+        <item>看这边、脖子扭过来、脸转过来、</item>
+        <item>打开档案、打开小勇档案、小勇档案</item>
+    </string-array>
+</resources>

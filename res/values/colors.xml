@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="all_item_text_color">#6c6c6c</color>
+    <color name="all_item_left_text_color">#28292c</color>
+    <color name="all_item_right_text_color">#6c6c6c</color>
+    <color name="all_divider_color">#e1e1e3</color>
+
+    <!-- layout -->
+    <color name="linear_layout_up">#00000000</color>
+    <color name="linear_layout_down">#3f32e2f9</color>
+
+    <!-- main -->
+    <color name="settings_list_item_text_color">#6c6c6c</color>
+    <color name="settings_list_item_text_pressed_color">#000000</color>
+    <color name="bg_item_gray">#E9ECF3</color>
+    <color name="font_black">#28292c</color>
+
+    <!-- QrCode -->
+    <color name="bg_item_blue">#ffce37</color>
+    <color name="bg_item_id">#5ec0ce</color>
+    <color name="bg_item_id_text">#eeeeee</color>
+    <color name="bg_item_press">#459EDA</color>
+    <color name="bg_item_normal">#EFEFEF</color>
+    <color name="binding_user_list_blue">#0099FF</color>
+    <color name="binding_user_list_selected_text_blue">#9BBACE</color>
+    <color name="list_item_selected_transparent">#00000000</color>
+    <color name="bg_item_white">#ffffffff</color>
+
+    <!-- network -->
+    <color name="network_divider_color">#2aa7b6</color>
+    <color name="network_text_color">#53f5ff</color>
+
+    <!-- about -->
+    <color name="about_gender_current_color">#dddddd</color>
+    <color name="about_gender_other_color">#2aa7b6</color>
+
+    <!-- security -->
+    <color name="security_btn_text_color">#ffffff</color>
+    <color name="security_lock_bg_color">#2ccc</color>
+    <color name="security_hint_color">#af53f5ff</color>
+
+    <!-- introduce -->
+    <color name="introduce_title">#0cc2c9</color>
+    <color name="introduce_text">#53f5ff</color>
+
+    <!-- dialog -->
+    <color name="dialog_content_color">#53f5ff</color>
+    <color name="textWhite">#ffffff</color>
+    <color name="lightBlue">#98ace7</color>
+    <color name="radioselectcolor">#ebbb31</color>
+    <color name="textColorH">#6c6c6c</color>
+
+    <!-- video -->
+    <color name="video_time_text_color">#84ff41</color>
+    <color name="light_transparent">#88000000</color>
+
+    <!--CircleSeekBar-->
+    <color name="def_wheel_color">#4E4988</color>
+    <color name="def_reached_color">#FFD844</color>
+    <color name="def_pointer_color">#FFFFFF</color>
+    <color name="def_scale_color">#FFFFFF</color>
+    <color name="def_num_color">#FFFFFF</color>
+
+</resources>

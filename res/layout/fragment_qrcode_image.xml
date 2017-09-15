@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/scan_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/scan_dev"
+                    android:textAlignment="center"
+                    android:textColor="@color/all_item_text_color"
+                    android:textSize="@dimen/qr_code_tip_text_size" />
+
+                <TextView
+                    android:id="@+id/create_qr_cdKeyword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qr_code_right_code_margin_left"
+                    android:text="@string/bindQrcode_dev"
+                    android:textAlignment="center"
+                    android:textColor="@color/all_item_text_color"
+                    android:textSize="@dimen/qr_code_tip_text_size" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/scan_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/scan_not_wetchat"
+                    android:textAlignment="center"
+                    android:textColor="#7FA1FA"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/open_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qr_code_right_code_margin_left"
+                    android:text="@string/open_app"
+                    android:textAlignment="center"
+                    android:textColor="#7FA1FA"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/download_qr_iv"
+                    android:layout_width="@dimen/qr_code_image_size"
+                    android:layout_height="@dimen/qr_code_image_size"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/create_qr_iv"
+                    android:layout_width="@dimen/qr_code_image_size"
+                    android:layout_height="@dimen/qr_code_image_size"
+                    android:layout_marginLeft="@dimen/qr_code_right_code_margin_left"
+                    android:textAlignment="center" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_marginLeft="280dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/create_qr_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_code_id_margin_top"
+            android:text="@string/str_id"
+            android:textColor="@color/all_item_text_color"
+            android:textSize="@dimen/qr_code_id_text_size" />
+
+        <TextView
+            android:id="@+id/create_qr_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sid"
+            android:textColor="@color/all_item_text_color"
+            android:textSize="@dimen/qr_code_id_text_size" />
+    </LinearLayout>
+
+</RelativeLayout>
